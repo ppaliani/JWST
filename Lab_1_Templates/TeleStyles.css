@@ -187,8 +187,8 @@ div#table {
     font-family: 'Poppins', sans-serif;
     font-size: larger;
     margin-top: 10px;
-    max-width: 600px;
-    width: 100%;
+    max-width: 60vw;
+    width: 100vw;
 }
 
 #launch-data th:hover {
