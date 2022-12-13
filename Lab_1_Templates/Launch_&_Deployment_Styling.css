@@ -105,25 +105,6 @@ p#Timer {
 }
 
 /*Title styles*/
-div > h1 > a {
-    border-radius: 8px;
-    color: aliceblue;
-    text-decoration: none;
-    cursor: pointer;
-    padding: 4px;
-    padding-bottom: 0;
-}
-
-div > h1 > a:hover {
-    text-decoration: none;
-    color: aliceblue;
-}
-
-div > h2 > a:hover {
-    text-decoration: none;
-    color: aliceblue;
-}
-
 div#Heading {
     display: flex;
     justify-content: center;
@@ -131,38 +112,49 @@ div#Heading {
     text-align: center;
     flex-direction: column;
     width: 100%;
-    min-width: 700px;
+    min-width: 70vw;
 }
 
 div > h1 {
+	display: flex;
+	align-items: center;
+	justify-content: center;
     background-color: rgb(13, 11, 27);
     border: 3px solid;
     border-radius: 12px;
     color: aliceblue;
-    margin: 0px 100px;
-    font-size: xxx-large;
-    font-family: 'Poppins', sans-serif;
-    max-width: 800px;
+    margin: 0px;
+	width: 100%;
+	height: 25vh;
+    max-width: 60vw;
+}
+
+div > h1 > p {
+    border-radius: 8px;
+    color: aliceblue;
+    padding: 4px;
+	font-family: 'Poppins', sans-serif;
 }
 
 div > h2 {
+	display: flex;
+	align-items: center;
+	justify-content: center;
     background-color: rgb(13, 11, 27);
     border: 3px solid;
     border-radius: 12px;
     color: aliceblue;
-    margin: 0px 100px;
-    font-size: xxx-large;
-    font-family: 'Poppins', sans-serif;
-    max-width: 800px;
+	margin: 0px;
+	width: 100%;
+	height: 25vh;
+    max-width: 40vw;
 }
 
-div > h2 > a {
+div > h2 > p {
     border-radius: 8px;
     color: aliceblue;
-    text-decoration: none;
-    cursor: pointer;
     padding: 4px;
-    padding-bottom: 0;
+	font-family: 'Poppins', sans-serif;
 }
 
 /*Photo table styles*/
@@ -174,7 +166,7 @@ div > h2 > a {
     font-family: monospace;
     font-size: larger;
     margin-top: 10px;
-    max-width: 600px;
+    max-width: 50vw;
     width: 100%;
 }
 
@@ -196,8 +188,9 @@ div > h2 > a {
 }
 
 #photos tr td a img{
+	width: 100%;
+	height: auto;
     display: flex;
-    margin: auto;
     align-content: center;
 }
 
