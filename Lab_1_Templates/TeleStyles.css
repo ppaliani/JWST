@@ -152,6 +152,13 @@ button:hover {
 
 
 /*Table styles*/
+div#table {
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	max-width: 60vw;
+}
+
 #launch-data th {
     background-color: rgb(22, 18, 49);
     color: aliceblue;
