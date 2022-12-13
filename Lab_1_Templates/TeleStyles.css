@@ -155,8 +155,6 @@ button:hover {
 div#table {
 	display: flex;
 	justify-content: center;
-	width: 100%;
-	max-width: 60vw;
 }
 
 #launch-data th {
