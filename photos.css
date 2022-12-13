@@ -208,8 +208,8 @@ a#LD {
     color: aliceblue;
     font-family: monospace;
     font-size: larger;
-    width: 100vw;
-    max-width: 500px;
+    width: 100%;
+    max-width: 70vw;
 }
 
 #table tr > td:hover {
@@ -223,15 +223,16 @@ a#LD {
     border-radius: 10px;
 }
 
-#table tr td a img{
+#table tr td a img {
+	width: 100%;
+	height: auto;
     display: flex;
-    margin: auto;
     align-content: center;
 }
 
 #table tr td {
     border-radius: 10px;
-    transition: color 1s, background-color 1s;
+    transition: color 1s, background-color 0.5s;
     transition-timing-function: ease-out;
 }
 
