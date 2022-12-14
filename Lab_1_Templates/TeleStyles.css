@@ -214,6 +214,7 @@ div#footer {
 
 footer > div > a {
     color: aliceblue;
+	font-family: 'Poppins', sans-serif;
     text-decoration: none;
     cursor: pointer;
 }

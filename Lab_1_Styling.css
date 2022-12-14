@@ -139,6 +139,31 @@ div > heading {
     font-family: 'Poppins', sans-serif;
 }
 
+/*Front page image styles*/
+div#death-rings-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 2rem;
+}
+
+div#death-rings {
+	background: rgba(143,143,143,0.70);
+	border-radius: 8px;
+	border: rgba(143,143,143,1.00) solid;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 80vw;
+	height: auto;
+	padding: 1rem 0rem;
+}
+
+div#death-rings img {
+	width: 70vw;
+	height: auto;
+}
+
 /*Footer styles*/
 div#footer {
 	background: rgba(143,143,143,0.70);
@@ -152,6 +177,7 @@ div#footer {
 
 footer > div > a {
     color: aliceblue;
+	font-family: 'Poppins', sans-serif;
     text-decoration: none;
     cursor: pointer;
 }
