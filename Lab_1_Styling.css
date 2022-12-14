@@ -142,13 +142,12 @@ div > heading {
 /*Footer styles*/
 div#footer {
 	background: rgba(143,143,143,0.70);
-
 	border-radius: 8px;
     display: block;
     margin: auto;
     margin-top: 2rem;
     text-align: center;
-    width: 8avw;
+    width: 7.5vw;
 }
 
 footer > div > a {

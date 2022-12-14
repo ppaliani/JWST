@@ -254,18 +254,19 @@ img#Cartwheel {
 }
 
 
-footer > div{
-    background-color: aliceblue;
-    border-radius: 5px;
+/*Footer styles*/
+div#footer {
+	background: rgba(143,143,143,0.70);
+	border-radius: 8px;
     display: block;
     margin: auto;
-    margin-top: 5px;
+    margin-top: 2rem;
     text-align: center;
-    width: 80px;
+    width: 7.5vw;
 }
 
 footer > div > a {
-    color: rgb(13, 11, 27);
+    color: aliceblue;
     text-decoration: none;
     cursor: pointer;
 }
