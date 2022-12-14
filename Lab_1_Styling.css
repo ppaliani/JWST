@@ -57,11 +57,27 @@ ul#nav-items li.nav-list-item a:hover {
 	color: aliceblue;
 }
 
+/*Artemis header styles*/
+div#Artemis {
+	margin-top: 3rem;
+	color: aliceblue;
+	font-family: 'Poppins', sans-serif;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
 
 /*Timer countdown styles*/
+div#countdown {
+	background: rgba(143,143,143,0.70);
+	border: rgba(143,143,143,1.00) solid;
+	border-radius: 8px;
+	margin-bottom: .7rem;
+}
+
 div#countdown > p {
     text-align: center;
-    font-size: 4vw;
+    font-size: 2vw;
     margin-bottom: 20px;
     margin-top: 5px;
     color: aliceblue;

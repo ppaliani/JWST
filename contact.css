@@ -110,6 +110,7 @@ p#contact-us {
 
 form#contact-form {
 	background: rgba(143,143,143,0.80);
+	border: rgba(143,143,143,1.00) solid;
 	border-radius: 8px;
 	margin-top: 2vw;
 	padding: 1rem;
