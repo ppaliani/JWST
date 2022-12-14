@@ -59,7 +59,7 @@ ul#nav-items li.nav-list-item a:hover {
 
 /*Artemis header styles*/
 div#Artemis {
-	margin-top: 3rem;
+	margin-top: 2rem;
 	color: aliceblue;
 	font-family: 'Poppins', sans-serif;
 	display: flex;
@@ -68,11 +68,20 @@ div#Artemis {
 }
 
 /*Timer countdown styles*/
+div#countdown-container {
+	display: flex;
+	justify-content: center;
+}
+
 div#countdown {
+	display: flex;
+	justify-content: center;
+	align-items: center;
 	background: rgba(143,143,143,0.70);
 	border: rgba(143,143,143,1.00) solid;
+	width: 40vw;
 	border-radius: 8px;
-	margin-bottom: .7rem;
+	margin-bottom: 2rem;
 }
 
 div#countdown > p {
@@ -105,13 +114,10 @@ p#Timer {
 }
 
 /*Webpage title styles*/
-div > heading > a {
+div > heading > p {
     border-radius: 8px;
     color: aliceblue;
-    text-decoration: none;
-    cursor: pointer;
-    padding: 4px;
-    padding-bottom: 0;
+	margin: 0px;
 }
 
 div#Heading-container {
@@ -128,23 +134,25 @@ div > heading {
     border-radius: 12px;
     color: aliceblue;
     margin: auto;
+	padding: 8px;
     font-size: 4vw;
     font-family: 'Poppins', sans-serif;
 }
 
 /*Footer styles*/
 div#footer {
-    background-color: aliceblue;
-    border-radius: 5px;
+	background: rgba(143,143,143,0.70);
+
+	border-radius: 8px;
     display: block;
     margin: auto;
-    margin-top: 5px;
+    margin-top: 2rem;
     text-align: center;
-    width: 80px;
+    width: 8avw;
 }
 
 footer > div > a {
-    color: rgb(13, 11, 27);
+    color: aliceblue;
     text-decoration: none;
     cursor: pointer;
 }
