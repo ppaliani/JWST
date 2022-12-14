@@ -130,6 +130,7 @@ div > h1 {
 }
 
 div > h1 > p {
+	margin: 0px;
     border-radius: 8px;
     color: aliceblue;
     padding: 4px;
@@ -151,6 +152,7 @@ div > h2 {
 }
 
 div > h2 > p {
+	margin: 0px;
     border-radius: 8px;
     color: aliceblue;
     padding: 4px;
