@@ -103,9 +103,21 @@ p#Timer {
     background-image: radial-gradient(rgb(44, 37, 94), rgb(0, 0, 0))
 }
 
+p#contact-us {
+	font-family: 'Poppins', sans-serif;
+	font-size: 2vw;
+}
+
 form#contact-form {
+	background: rgba(143,143,143,0.80);
+	border-radius: 8px;
+	margin-top: 2vw;
+	padding: 1rem;
 	display: flex;
 	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	font-family: 'Poppins', sans-serif;
 }
 
 div.container {
@@ -113,7 +125,7 @@ div.container {
 	justify-content: center;
 	align-items: center;
 	margin: 3px;
-	height: 7vh;
+	height: auto;
 	width: 30vw;
     background-color: rgba(235, 235, 235, 0.884);
     border-radius: 5px;
@@ -125,11 +137,6 @@ div.container {
     transition: margin 0.45s ease-in-out;
 }
 
-input#submit-btn {
-	
-}
-
 input#submit-btn:hover {
 	cursor: pointer;
-	
 }
